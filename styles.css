@@ -206,24 +206,25 @@ li:hover .link-menu,
 section {
   display: flex;
   align-items: center;
-  padding: 60px 10%;
+  padding: 50px 10%;
   background-color: #ddd0d0;
   flex-wrap: wrap;
 }
 
 section img {
-  height: 400px;
+  height: 300px;
   border-radius: 50%;
   border: 2px solid #f9004d;
-  margin-right: 20px;
+  margin-right: 40px;
   margin-bottom: 20px;
+  margin-top: 80px;
 }
 section#sobre p {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 section#sobre ul {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 section#sobre ul li {
@@ -237,12 +238,12 @@ section#sobre ul li strong {
 
 section div h2 {
   color: #000000;
-  font-size: 75px;
+  font-size: 40px;
 }
 
 section div p {
   color: #474041;
-  font-size: 24px;
+  font-size: 20px;
   margin-top: 40px;
   margin-bottom: 60px;
 }
@@ -290,6 +291,7 @@ section div button:hover {
   font-size: 50px;
   color: #ffffff;
   margin-bottom: 50px;
+  margin-top: 90px;
 }
 
 /* Estilo para o contêiner dos cartões */
@@ -347,10 +349,29 @@ section div button:hover {
   gap: 20px; /* Espaçamento entre o vídeo e o mapa */
   align-items: flex-start; /* Alinha o vídeo e o mapa no topo */
 }
-
+.video iframe {
+  width: 90%; /* Faz o iframe ocupar toda a largura do contêiner */
+  height: 500px; /* Faz o iframe ocupar toda a altura do contêiner */
+  border: 0; /* Remove a borda do iframe */
+}
 .video,
 .map {
   flex: 1; /* Faz o vídeo e o mapa ocuparem a mesma largura */
+}
+.map h2 {
+  margin-top: 10px;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.map a {
+  text-decoration: none; /* Remove o sublinhado do link */
+  color: #000; /* Define a cor padrão do texto do link */
+  display: block; /* Garante que o link ocupe a largura do elemento pai */
+  transition: color 0.3s; /* Adiciona uma transição suave na cor */
+}
+
+.map a:hover {
+  color: #007bff; /* Cor do texto quando o mouse passa sobre o link */
 }
 
 iframe {
