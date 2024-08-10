@@ -304,8 +304,8 @@ section div button:hover {
 /* Estilo para cada cartão */
 .cards {
   width: 100%;
-  max-width: 300px;
-  height: 200px;
+  max-width: 400px;
+  height: 230px;
   position: relative;
   border-radius: 10px;
   overflow: hidden;
@@ -318,7 +318,7 @@ section div button:hover {
 }
 
 /* Contêiner da imagem dentro do cartão */
-.cards img {
+.cards .a img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -339,6 +339,23 @@ section div button:hover {
   align-items: center;
   justify-content: center;
   z-index: 1;
+}
+/************************************* */
+
+.video-clinica {
+  display: flex;
+  gap: 20px; /* Espaçamento entre o vídeo e o mapa */
+  align-items: flex-start; /* Alinha o vídeo e o mapa no topo */
+}
+
+.video,
+.map {
+  flex: 1; /* Faz o vídeo e o mapa ocuparem a mesma largura */
+}
+
+iframe {
+  max-width: 100%; /* Garante que o iframe não exceda a largura do contêiner */
+  height: 500px; /* Ajusta a altura do iframe para manter a proporção */
 }
 
 /************************************* */
