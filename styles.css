@@ -1011,7 +1011,7 @@ footer p {
     z-index: 1000;
     display: none; /* Oculto por padrão */
     transition: color 0.3s;
-    border-radius: 15px;
+    border-radius: 10px;
   }
   .openbtn {
     display: block; /* Mostra o botão para abrir o menu lateral em telas pequenas */
