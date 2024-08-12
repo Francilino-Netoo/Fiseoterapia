@@ -6,6 +6,7 @@
 }
 
 .caixa-principal {
+  
   height: 100vh;
   width: 100%;
   background-size: 30%;
@@ -74,7 +75,7 @@ li:hover .link-menu,
   width: 100%;
   max-width: 100%;
   overflow: hidden;
-  height: 600px;
+  height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -169,6 +170,7 @@ li:hover .link-menu,
 }
 
 .agendar {
+  
   text-align: center;
   margin-top: 10vh;
 }
@@ -306,8 +308,8 @@ section div button:hover {
 /* Estilo para cada cartão */
 .cards {
   width: 100%;
-  max-width: 400px;
-  height: 230px;
+  max-width: 300px;
+  
   position: relative;
   border-radius: 10px;
   overflow: hidden;
@@ -320,11 +322,13 @@ section div button:hover {
 }
 
 /* Contêiner da imagem dentro do cartão */
-.cards .a img {
+.cards a img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain; /* Ajusta a imagem para se ajustar dentro do contêiner */
   display: block;
+  box-shadow: 0 2px 4px rgba(193, 34, 241, 0.7),
+    0 4px 8px rgba(34, 34, 180, 0.7);
 }
 
 /* Estilo para o texto sobre a imagem */
@@ -437,11 +441,17 @@ footer p {
   .cards-projetos {
     grid-template-columns: repeat(3, 1fr);
   }
+  .agendar {
+    margin-top: 5vh; /* Ajuste a margem superior em telas menores */
+  }
 }
 
 @media (max-width: 900px) {
   .cards-projetos {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .agendar {
+    margin-top: 5vh; /* Ajuste a margem superior em telas menores */
   }
 }
 
