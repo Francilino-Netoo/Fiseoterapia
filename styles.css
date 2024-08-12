@@ -945,6 +945,9 @@ footer p {
 
 
 @media (max-width: 480px) {
+  .caixa-principal {
+    height: 80vh;
+  }
   nav {
     position: fixed;
     display: none;
@@ -1461,7 +1464,9 @@ footer p {
   nav {
     display: none;
   }
-  
+  .caixa-principal {
+    height: 80vh;
+  }
   /* Estilo do Menu Lateral */
   .side-menu {
     height: 100%;
