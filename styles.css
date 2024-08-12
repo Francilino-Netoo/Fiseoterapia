@@ -1003,7 +1003,7 @@ footer p {
   }
 
   .openbtn {
-    font-size: 40px;
+    font-size: 30px;
     cursor: pointer;
     position: fixed;
     top: 10px;
@@ -1511,7 +1511,7 @@ footer p {
   }
 
   .openbtn {
-    font-size: 20px;
+    font-size: 25px;
     cursor: pointer;
     position: fixed;
     top: 10px;
@@ -1519,6 +1519,7 @@ footer p {
     z-index: 1000;
     display: none; /* Oculto por padrão */
     transition: color 0.3s;
+    border-radius: 5px;
   }
   .openbtn {
     display: block; /* Mostra o botão para abrir o menu lateral em telas pequenas */
@@ -2019,7 +2020,7 @@ footer p {
   }
 
   .openbtn {
-    font-size: 20px;
+    font-size: 25px;
     cursor: pointer;
     position: fixed;
     top: 10px;
@@ -2027,6 +2028,7 @@ footer p {
     z-index: 1000;
     display: none; /* Oculto por padrão */
     transition: color 0.3s;
+    border-radius: 5px;
   }
   .openbtn {
     display: block; /* Mostra o botão para abrir o menu lateral em telas pequenas */
