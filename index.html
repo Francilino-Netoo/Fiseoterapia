@@ -518,6 +518,15 @@
         dots.forEach((dot, index) => {
           dot.addEventListener("click", () => currentSlide(index));
         });
+        // Fecha o menu se clicar fora do menu lateral
+        document.addEventListener("click", (event) => {
+            const sideMenu = document.getElementById('side-menu');
+            const menuButton = document.querySelector('.openbtn');
+            
+            if (!sideMenu.contains(event.target) && !menuButton.contains(event.target) && !sideMenu.classList.contains('hidden')) {
+                closeMenu();
+            }
+        });
       });
       
     </script>
