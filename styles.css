@@ -1003,7 +1003,7 @@ footer p {
   }
 
   .openbtn {
-    font-size: 25px;
+    font-size: 30px;
     cursor: pointer;
     position: fixed;
     top: 10px;
@@ -1011,7 +1011,7 @@ footer p {
     z-index: 1000;
     display: none; /* Oculto por padrão */
     transition: color 0.3s;
-    border-radius: 10px;
+    border-radius: 5px;
   }
   .openbtn {
     display: block; /* Mostra o botão para abrir o menu lateral em telas pequenas */
