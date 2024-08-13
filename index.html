@@ -22,6 +22,24 @@
 
   <body>
     <div class="caixa-principal" id="home">
+      <!-- Menu Lateral -->
+      <div class="side-menu" id="side-menu">
+        <div class="logo" href="#home">
+          <img
+            src="./img/Fisioterapia/logo.png"
+            alt="Logo foto"
+            class="logo-foto"
+          />
+        </div>
+
+        <a href="#home">Home</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Atuação</a>
+        <a href="#clinica">Clínica</a>
+        <a href="#fale-comigo">Contato</a>
+      </div>
+      <span class="openbtn" onclick="toggleMenu()">☰</span>
+
       <nav>
         <div class="logo" href="#home">
           <img
@@ -182,75 +200,79 @@
 
       <div class="cards-projetos">
         <div class="cards">
-          <h5>Fisioterapia Cardiológica</h5>
+          <a href="./public/projeto1/index.html"
+            ><h5>Fisioterapia Cardiológica</h5></a
+          >
           <a href="./public/projeto1/index.html"
             ><img src="./img/Fisioterapia/1.png" alt="Projeto Bac Bo"
           /></a>
         </div>
         <div class="cards">
-          <h5>Fisioterapia Desportiva</h5>
+          <a href="./public/projeto2/index.html"
+            ><h5>Fisioterapia Desportiva</h5></a
+          >
           <a href="./public/projeto2/index.html"
             ><img src="./img/Fisioterapia/2.png" alt="Projeto Bac Bo"
           /></a>
         </div>
         <div class="cards">
-          <h5>Fisioterapia Domiciliar</h5>
           <a href="./public/projeto3/index.html"
-            ><img src="./img/Fisioterapia/3.png" alt="Projeto Bac Bo"
+            ><h5>Fisioterapia Domiciliar</h5>
+            <img src="./img/Fisioterapia/3.png" alt="Projeto Bac Bo"
           /></a>
         </div>
         <div class="cards">
-          <h5>Treinamento Funcional</h5>
           <a href="./public/projeto4/index.html"
-            ><img src="./img/Fisioterapia/4.png" alt="Projeto Bac Bo"
+            ><h5>Treinamento Funcional</h5>
+            <img src="./img/Fisioterapia/4.png" alt="Projeto Bac Bo"
           /></a>
         </div>
         <div class="cards">
-          <h5>Fisioterapia Geriátrica</h5>
           <a href="./public/projeto5/index.html"
-            ><img src="./img/Fisioterapia/5.png" alt="Projeto Bac Bo"
+            ><h5>Fisioterapia Geriátrica</h5>
+            <img src="./img/Fisioterapia/5.png" alt="Projeto Bac Bo"
           /></a>
         </div>
         <div class="cards">
-          <h5>Massoterapia</h5>
           <a href="./public/projeto6/index.html"
-            ><img src="./img/Fisioterapia/6.png" alt="Projeto Bac Bo"
+            ><h5>Massoterapia</h5>
+            <img src="./img/Fisioterapia/6.png" alt="Projeto Bac Bo"
           /></a>
         </div>
         <div class="cards">
-          <h5>Fisioterapia Neurológica</h5>
           <a href="./public/projeto7/index.html"
-            ><img src="./img/Fisioterapia/7.png" alt="Projeto Bac Bo"
+            ><h5>Fisioterapia Neurológica</h5>
+            <img src="./img/Fisioterapia/7.png" alt="Projeto Bac Bo"
           /></a>
         </div>
         <div class="cards">
-          <h5>Fisioterapia Ortopédica</h5>
           <a href="./public/projeto8/index.html"
-            ><img src="./img/Fisioterapia/8.png" alt="Projeto Bac Bo"
+            ><h5>Fisioterapia Ortopédica</h5>
+            <img src="./img/Fisioterapia/8.png" alt="Projeto Bac Bo"
           /></a>
         </div>
         <div class="cards">
-          <h5>Pilates</h5>
           <a href="./public/projeto9/index.html"
-            ><img src="./img/Fisioterapia/9.png" alt="Projeto Bac Bo"
+            ><h5>Pilates</h5>
+            <img src="./img/Fisioterapia/9.png" alt="Projeto Bac Bo"
           /></a>
         </div>
         <div class="cards">
-          <h5>Fisioterapia Respiratória</h5>
           <a href="./public/projeto10/index.html"
-            ><img src="./img/Fisioterapia/10.png" alt="Projeto Bac Bo"
+            ><h5>Fisioterapia Respiratória</h5>
+            <img src="./img/Fisioterapia/10.png" alt="Projeto Bac Bo"
           /></a>
         </div>
         <div class="cards">
-          <h5>RPG</h5>
           <a href="./public/projeto11/index.html"
-            ><img src="./img/Fisioterapia/11.png" alt="Projeto Bac Bo"
+            ><h5>RPG</h5>
+            <img src="./img/Fisioterapia/11.png" alt="Projeto Bac Bo"
           /></a>
         </div>
         <div class="cards">
-          <h5>Palmilhas Ortopédicas</h5>
           <a href="./public/projeto12/index.html"
-            ><img src="./img/Fisioterapia/12.png" alt="Projeto Bac Bo"
+            ><h5>Palmilhas Ortopédicas</h5>
+            <img src="./img/Fisioterapia/12.png" alt="Projeto Bac Bo"
           /></a>
         </div>
       </div>
@@ -320,11 +342,8 @@
         <!-- Aqui está o código para incorporar o vídeo do YouTube -->
         <div class="video">
           <iframe
-            width="560"
-            height="315"
             src="https://www.youtube.com/embed/ID_DO_VIDEO"
             title="Vídeo do YouTube"
-            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
@@ -334,9 +353,6 @@
         <div class="map">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.820586284855!2d-39.29602032409478!3d-6.791673566424104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a3b49dc5597b9f%3A0x62aee1d06b13b2bb!2sR.%20Chagas%20Bezerra%2C%2075%20-%20V%C3%A1rzea%20Alegre%2C%20CE%2C%2063540-000!5e0!3m2!1spt-BR!2sbr!4v1723305039565!5m2!1spt-BR!2sbr"
-            width="600"
-            height="450"
-            style="border: 0"
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
@@ -356,17 +372,17 @@
       </p>
 
       <div class="social">
-        <a href="https://www.linkedin.com/in/francilino-neto" target="_blank"
+        <a href="https://www.youtube.com/@Dra.Tain%C3%A1Sousa" target="_blank"
           ><img src="./img/you.png" alt="LinkedIn"
         /></a>
-        <a href="https://t.me/programador_python" target="_blank"
+        <a href="" target="_blank"
           ><img src="./img/tick.png" alt="Telegram"
         /></a>
-        <a href="https://github.com/Francilino-Netoo" target="_blank"
+        <a href="https://www.instagram.com/dra_tai_sousa_costa" target="_blank"
           ><img src="./img/insta.png" alt="GitHub"
         /></a>
         <a
-          href="https://api.whatsapp.com/send/?phone=%2B5588996015972&text&type=phone_number&app_absent=0"
+          href="https://api.whatsapp.com/send/?phone=%2B558897015525&text&type=phone_number&app_absent=0"
           target="_blank"
           ><img src="./img/wha.png" alt="WhatsApp"
         /></a>
@@ -446,6 +462,72 @@
 
             link.classList.add("active");
           });
+        });
+      });
+      function toggleMenu() {
+        const sideMenu = document.getElementById("side-menu");
+        const menuButton = document.querySelector(".openbtn");
+
+        // Toggle menu visibility by adding/removing the 'hidden' class
+        if (sideMenu.classList.contains("hidden")) {
+          sideMenu.classList.remove("hidden");
+          menuButton.textContent = "✖"; // Update button text to "close"
+        } else {
+          sideMenu.classList.add("hidden");
+          menuButton.textContent = "☰"; // Update button text to "menu"
+        }
+      }
+
+      function closeMenu() {
+        const sideMenu = document.getElementById("side-menu");
+        const menuButton = document.querySelector(".openbtn");
+
+        if (!sideMenu.classList.contains("hidden")) {
+          sideMenu.classList.add("hidden");
+          menuButton.textContent = "☰"; // Update button text to "menu"
+        }
+      }
+
+      document.addEventListener("DOMContentLoaded", () => {
+        // Adiciona o ouvinte de clique para os links do menu lateral
+        const menuLinks = document.querySelectorAll(".menu-link");
+        menuLinks.forEach((link) => {
+          link.addEventListener("click", () => {
+            closeMenu();
+          });
+        });
+
+        const menuLinks1 = document.querySelectorAll(".side-menu");
+        menuLinks1.forEach((link) => {
+          link.addEventListener("click", () => {
+            closeMenu();
+          });
+        });
+
+        // Adiciona ouvintes de clique para outros elementos (se necessário)
+        document
+          .querySelector(".prev")
+          .addEventListener("click", () => plusSlides(-1));
+        document
+          .querySelector(".next")
+          .addEventListener("click", () => plusSlides(1));
+
+        const dots = document.querySelectorAll(".dot");
+        dots.forEach((dot, index) => {
+          dot.addEventListener("click", () => currentSlide(index));
+        });
+        // Fecha o menu se clicar fora do menu lateral
+        document.addEventListener("click", (event) => {
+          const sideMenu = document.getElementById("side-menu");
+          const menuButton = document.querySelector(".openbtn");
+
+          if (
+            !sideMenu.contains(event.target) &&
+            !menuButton.contains(event.target) &&
+            !sideMenu.classList.contains("hidden")
+          ) {
+            closeMenu();
+          }
         });
       });
     </script>
