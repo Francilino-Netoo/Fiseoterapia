@@ -424,17 +424,30 @@ footer p {
   transition: 0.5s;
 }
 
+<<<<<<< HEAD
 @media (max-width: 600px) {
+=======
+
+@media (max-width: 600px) { 
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   .logo img {
     height: 100px;
     margin-right: 20px;
     margin-bottom: 20px;
   }
+<<<<<<< HEAD
 
   .minha-foto {
     display: none;
   }
 
+=======
+  
+  .minha-foto {
+    display: none;
+  }
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   li {
     list-style: none;
     display: inline-block;
@@ -442,7 +455,11 @@ footer p {
     margin-right: 20px;
     cursor: pointer;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   .link-menu {
     text-decoration: none;
     color: #ffffff;
@@ -453,18 +470,30 @@ footer p {
     line-height: 1.5;
     text-align: center;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   li {
     display: inline;
     margin-right: 20px;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   li:hover .link-menu,
   .link-menu:hover {
     color: #00f929;
     border-color: #f9004d;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   /* Contêiner principal */
   .meu-nome {
     position: relative;
@@ -477,7 +506,11 @@ footer p {
     justify-content: center;
     margin-top: 100px;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   /* Contêiner do slider */
   .slider {
     position: relative;
@@ -486,7 +519,11 @@ footer p {
     display: flex;
     transition: opacity 1s ease-in-out;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   /* Slide individual */
   .slide {
     position: absolute;
@@ -497,12 +534,20 @@ footer p {
     align-items: center;
     justify-content: center;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   /* Slide ativo */
   .slide.active {
     opacity: 1;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   /* Texto sobreposto */
   .slider-text {
     position: absolute;
@@ -515,7 +560,11 @@ footer p {
     z-index: 10;
     text-align: center;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   /* Setas de navegação */
   .prev,
   .next {
@@ -530,6 +579,7 @@ footer p {
     cursor: pointer;
     user-select: none;
     text-align: center;
+<<<<<<< HEAD
 
     z-index: 3;
   }
@@ -542,6 +592,20 @@ footer p {
     right: 10px;
   }
 
+=======
+  
+    z-index: 3;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   /* Dots de navegação */
   .nav-dots {
     position: absolute;
@@ -551,7 +615,11 @@ footer p {
     display: flex;
     gap: 10px;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   .dot {
     background-color: #ffffff;
     border-radius: 50%;
@@ -560,16 +628,28 @@ footer p {
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
+<<<<<<< HEAD
 
   .dot.active {
     background-color: #f9004d;
   }
 
+=======
+  
+  .dot.active {
+    background-color: #f9004d;
+  }
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   .agendar {
     text-align: center;
     margin-top: 10vh;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   .agendar h2 {
     font-family: "Josefin Sans", sans-serif;
     font-weight: 700;
@@ -577,6 +657,7 @@ footer p {
     font-size: 36px;
     margin: 0;
   }
+<<<<<<< HEAD
 
   .agendar h2 span {
     display: inline;
@@ -590,16 +671,39 @@ footer p {
     color: #00ff00;
   }
 
+=======
+  
+  .agendar h2 span {
+    display: inline;
+  }
+  
+  .agendar h2 .fisiolife {
+    color: #008000;
+  }
+  
+  .agendar h2 .fisiolife-live {
+    color: #00ff00;
+  }
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   .agendar h2 a {
     color: #f9004d;
     text-decoration: none;
     font-weight: bold;
   }
+<<<<<<< HEAD
 
   .agendar h2 a:hover {
     text-decoration: underline;
   }
 
+=======
+  
+  .agendar h2 a:hover {
+    text-decoration: underline;
+  }
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   section {
     display: flex;
     align-items: center;
@@ -607,7 +711,11 @@ footer p {
     background-color: #fff;
     flex-wrap: wrap;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   section img {
     height: 400px;
     border-radius: 50%;
@@ -618,11 +726,19 @@ footer p {
   section#sobre p {
     margin-bottom: 20px;
   }
+<<<<<<< HEAD
 
   section#sobre ul {
     margin-bottom: 20px;
   }
 
+=======
+  
+  section#sobre ul {
+    margin-bottom: 20px;
+  }
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   section#sobre ul li {
     margin-bottom: 10px;
   }
@@ -631,19 +747,31 @@ footer p {
     margin-top: 10px;
     font-weight: bold;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   section div h2 {
     color: #000000;
     font-size: 75px;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   section div p {
     color: #474041;
     font-size: 24px;
     margin-top: 40px;
     margin-bottom: 60px;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   section div button {
     color: #ffffff;
     background-color: #f9004d;
@@ -653,13 +781,21 @@ footer p {
     border: none;
     border-radius: 26px;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   section div button:hover {
     color: #000;
     border: 3px solid #f9004d;
     transition: 0.5s;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   /*********************************/
   .projetos {
     padding-top: 50px;
@@ -667,7 +803,11 @@ footer p {
     position: relative;
     text-align: center; /* Centraliza o texto e os elementos dentro da seção projetos */
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   .fundo {
     position: fixed;
     top: 0;
@@ -677,19 +817,31 @@ footer p {
     z-index: -1; /* Certifique-se de que está atrás de outros elementos */
     overflow: hidden; /* Garante que a imagem não ultrapasse a área da div */
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   .fundo img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   .projetos h2 {
     font-size: 50px;
     color: #ffffff;
     margin-bottom: 50px;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   /* Estilo para o contêiner dos cartões */
   .cards-projetos {
     display: grid;
@@ -697,7 +849,11 @@ footer p {
     justify-items: center;
     margin-top: 100px;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   /* Estilo para cada cartão */
   .cards {
     width: 100%;
@@ -710,7 +866,11 @@ footer p {
     align-items: center;
     justify-content: center;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   /* Contêiner da imagem dentro do cartão */
   .cards .a img {
     width: 100%;
@@ -718,7 +878,11 @@ footer p {
     object-fit: cover;
     display: block;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   /* Estilo para o texto sobre a imagem */
   .cards h5 {
     position: absolute;
@@ -735,7 +899,11 @@ footer p {
     z-index: 1;
   }
   /************************************* */
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   /************************************* */
   footer {
     background-color: #c4b7b7;
@@ -746,29 +914,49 @@ footer p {
     align-items: center;
     justify-content: center;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   footer h5 {
     color: #000;
     font-size: 30px;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   footer p {
     color: #000;
     font-size: 18px;
     margin-top: 14px;
     margin-bottom: 30px;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   .social {
     display: flex;
     gap: 20px;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   .social img {
     height: 50px;
     border-radius: 50%;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   .social a {
     background-color: #f9004d;
     padding: 15px;
@@ -780,34 +968,60 @@ footer p {
     width: 50px;
     cursor: pointer;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   .social a:hover {
     transform: scale(1.3);
     transition: 0.5s;
   }
+<<<<<<< HEAD
 }
 
 @media (max-width: 480px) {
+=======
+  
+}
+
+@media (max-width: 480px) { 
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   .caixa-principal {
     height: 40vh;
     width: 100%;
     background-size: 30%;
     background-position: right 100px bottom 100px;
     background-repeat: no-repeat;
+<<<<<<< HEAD
 
     z-index: 1;
   }
 
+=======
+  
+    z-index: 1;
+  }
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   .logo img {
     height: 60px;
     margin-right: 20px;
     margin-bottom: 5px;
   }
+<<<<<<< HEAD
 
   .minha-foto {
     display: none;
   }
 
+=======
+  
+  .minha-foto {
+    display: none;
+  }
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   li {
     list-style: none;
     display: inline-block;
@@ -815,7 +1029,11 @@ footer p {
     margin-right: 20px;
     cursor: pointer;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   .link-menu {
     text-decoration: none;
     color: #ffffff;
@@ -826,18 +1044,30 @@ footer p {
     line-height: 1.5;
     text-align: center;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   li {
     display: inline;
     margin-right: 20px;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   li:hover .link-menu,
   .link-menu:hover {
     color: #00f929;
     border-color: #f9004d;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   /* Contêiner principal */
   .meu-nome {
     position: relative;
@@ -850,7 +1080,11 @@ footer p {
     justify-content: center;
     margin-top: 40px;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   /* Contêiner do slider */
   .slider {
     position: relative;
@@ -859,7 +1093,11 @@ footer p {
     display: flex;
     transition: opacity 1s ease-in-out;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   /* Slide individual */
   .slide {
     position: absolute;
@@ -870,7 +1108,11 @@ footer p {
     align-items: center;
     justify-content: center;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   /* Texto sobreposto */
   .slider-text {
     position: absolute;
@@ -883,14 +1125,22 @@ footer p {
     z-index: 10;
     text-align: center;
   }
+<<<<<<< HEAD
   /* Estilo para o contêiner dos cartões */
+=======
+   /* Estilo para o contêiner dos cartões */
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   .cards-projetos {
     display: grid;
     gap: 20px 1px;
     justify-items: center;
     margin-top: 5px;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   /* Estilo para cada cartão */
   .cards {
     width: 100%;
@@ -903,7 +1153,11 @@ footer p {
     align-items: center;
     justify-content: center;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   /* Contêiner da imagem dentro do cartão */
   .cards .a img {
     width: 100%;
@@ -911,7 +1165,11 @@ footer p {
     object-fit: cover;
     display: block;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   /* Estilo para o texto sobre a imagem */
   .cards h5 {
     position: absolute;
@@ -941,6 +1199,7 @@ footer p {
     cursor: pointer;
     user-select: none;
     text-align: center;
+<<<<<<< HEAD
 
     z-index: 3;
   }
@@ -953,6 +1212,20 @@ footer p {
     right: 10px;
   }
 
+=======
+  
+    z-index: 3;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   /* Dots de navegação */
   .nav-dots {
     position: absolute;
@@ -962,7 +1235,11 @@ footer p {
     display: flex;
     gap: 10px;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   .dot {
     background-color: #ffffff;
     border-radius: 50%;
@@ -971,12 +1248,20 @@ footer p {
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   .agendar {
     text-align: center;
     margin-top: 2vh;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   .agendar h2 {
     font-family: "Josefin Sans", sans-serif;
     font-weight: 700;
@@ -984,17 +1269,30 @@ footer p {
     font-size: 36px;
     margin: 0;
   }
+<<<<<<< HEAD
 
+=======
+  
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   .agendar h2 a {
     color: #f9004d;
     text-decoration: none;
     font-weight: bold;
   }
+<<<<<<< HEAD
 
   .agendar h2 a:hover {
     text-decoration: underline;
   }
 
+=======
+  
+  .agendar h2 a:hover {
+    text-decoration: underline;
+  }
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   section {
     display: flex;
     align-items: center;
@@ -1002,7 +1300,11 @@ footer p {
     background-color: #fff;
     flex-wrap: wrap;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   section img {
     height: 400px;
     border-radius: 50%;
@@ -1013,11 +1315,19 @@ footer p {
   section#sobre p {
     margin-bottom: 20px;
   }
+<<<<<<< HEAD
 
   section#sobre ul {
     margin-bottom: 20px;
   }
 
+=======
+  
+  section#sobre ul {
+    margin-bottom: 20px;
+  }
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   section#sobre ul li {
     margin-bottom: 10px;
   }
@@ -1026,19 +1336,31 @@ footer p {
     margin-top: 5px;
     font-weight: bold;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   section div h2 {
     color: #000000;
     font-size: 14px;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   section div p {
     color: #474041;
     font-size: 14px;
     margin-top: 20px;
     margin-bottom: 20px;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   section div button {
     color: #ffffff;
     background-color: #f9004d;
@@ -1048,13 +1370,21 @@ footer p {
     border: none;
     border-radius: 26px;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   section div button:hover {
     color: #000;
     border: 3px solid #f9004d;
     transition: 0.5s;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   /************************************* */
   /************************************* */
   footer {
@@ -1066,12 +1396,20 @@ footer p {
     align-items: center;
     justify-content: center;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   footer h5 {
     color: #000;
     font-size: 20px;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   footer p {
     color: #000;
     font-size: 13px;
@@ -1080,17 +1418,29 @@ footer p {
     margin: 20px;
     text-align: center;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   .social {
     display: flex;
     gap: 15px;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   .social img {
     height: 50px;
     border-radius: 50%;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   .social a {
     background-color: #f9004d;
     padding: 15px;
@@ -1102,9 +1452,18 @@ footer p {
     width: 50px;
     cursor: pointer;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
   .social a:hover {
     transform: scale(1.3);
     transition: 0.5s;
   }
+<<<<<<< HEAD
 }
+=======
+  
+}
+>>>>>>> d86ccdb91c97a0436c0d70c355f8996851c2a311
