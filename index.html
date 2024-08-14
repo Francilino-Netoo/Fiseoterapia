@@ -342,7 +342,6 @@
       <h2>CONHEÇA NOSSA CLÍNICA</h2>
 
       <div class="video-clinica">
-        <!-- Aqui está o código para incorporar o vídeo do YouTub -->
         <div class="video">
           <iframe
             src="https://www.youtube.com/embed/IU50Let_0aQ?rel=0&modestbranding=1&controls=1"
@@ -352,7 +351,6 @@
           ></iframe>
         </div>
 
-        <!-- Aqui está o código para incorporar o MapBox -->
         <div class="map">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.820586284855!2d-39.29602032409478!3d-6.791673566424104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a3b49dc5597b9f%3A0x62aee1d06b13b2bb!2sR.%20Chagas%20Bezerra%2C%2075%20-%20V%C3%A1rzea%20Alegre%2C%20CE%2C%2063540-000!5e0!3m2!1spt-BR!2sbr!4v1723305039565!5m2!1spt-BR!2sbr"
@@ -471,13 +469,12 @@
         const sideMenu = document.getElementById("side-menu");
         const menuButton = document.querySelector(".openbtn");
 
-        // Toggle menu visibility by adding/removing the 'hidden' class
         if (sideMenu.classList.contains("hidden")) {
           sideMenu.classList.remove("hidden");
-          menuButton.textContent = "✖"; // Update button text to "close"
+          menuButton.textContent = "✖";
         } else {
           sideMenu.classList.add("hidden");
-          menuButton.textContent = "☰"; // Update button text to "menu"
+          menuButton.textContent = "☰";
         }
       }
 
@@ -487,12 +484,11 @@
 
         if (!sideMenu.classList.contains("hidden")) {
           sideMenu.classList.add("hidden");
-          menuButton.textContent = "☰"; // Update button text to "menu"
+          menuButton.textContent = "☰";
         }
       }
 
       document.addEventListener("DOMContentLoaded", () => {
-        // Adiciona o ouvinte de clique para os links do menu lateral
         const menuLinks = document.querySelectorAll(".menu-link");
         menuLinks.forEach((link) => {
           link.addEventListener("click", () => {
@@ -507,7 +503,6 @@
           });
         });
 
-        // Adiciona ouvintes de clique para outros elementos (se necessário)
         document
           .querySelector(".prev")
           .addEventListener("click", () => plusSlides(-1));
@@ -519,7 +514,7 @@
         dots.forEach((dot, index) => {
           dot.addEventListener("click", () => currentSlide(index));
         });
-        // Fecha o menu se clicar fora do menu lateral
+
         document.addEventListener("click", (event) => {
           const sideMenu = document.getElementById("side-menu");
           const menuButton = document.querySelector(".openbtn");
