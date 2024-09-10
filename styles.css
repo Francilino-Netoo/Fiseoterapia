@@ -2010,7 +2010,7 @@ footer p {
     top: 0;
     right: -250px; /* Inicialmente escondido à esquerda */
     background-color: #333;
-    width: 50%;
+    width: 10%;
     background: linear-gradient(to right, #116574, #c122f1);
     overflow-x: hidden;
     padding-top: 60px;
